@@ -1,0 +1,15 @@
+#!/bin/bash
+
+if [[ $# != 1 ]]
+then
+    echo "usage: startA oneParameter"
+    exit 1
+else
+    arg=$1
+    if [[ ${arg:0:1} == a || ${arg:0:1} == A ]]
+    then
+	exit
+    else
+	exit 2
+    fi
+fi 

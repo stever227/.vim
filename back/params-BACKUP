@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo The first parameter is $1
+echo The second parameter is $2
+echo I have $# parameter\(s\)
+
+echo "My parameters are $*"
+
+if [[ $1 == $2 ]]
+then echo "the first two parameters are the same"
+else
+echo "The first two parameters are not equal"
+
+fi
