@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for X in *
+do
+    if [[ -r $X ]]
+    then
+	echo $X is readable
+    fi
+done

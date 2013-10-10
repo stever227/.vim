@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $HOME == $PWD ]]
+then
+    echo We\'re home bitches!;
+else
+    echo Not home!;
+fi

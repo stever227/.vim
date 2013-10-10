@@ -1,0 +1,5 @@
+#!/bin/bash
+
+echo "I have a $1 for sale."
+echo "The $1's price is \$$2."
+echo "test hard link"

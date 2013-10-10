@@ -1,0 +1,11 @@
+#!/bin/bash
+
+FILENAME=$1
+DIR=$(dirname $FILENAME)
+for OTHER in $DIR/*
+do
+    if [[ $OTHER != $FILENAME ]]
+    then
+	echo $OTHER
+    fi
+done

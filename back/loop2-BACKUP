@@ -1,0 +1,5 @@
+for I in $(seq 1 10)
+do
+    ((SQUARE=I*I))
+    echo $I $SQUARE
+done
